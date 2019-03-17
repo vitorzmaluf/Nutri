@@ -1,0 +1,15 @@
+# eclipse IDE files & folders
+.settings
+bin
+
+.classpath
+.project
+
+# NetBeans IDE files & folders
+build
+dist
+nbproject
+test
+
+build.xml
+manifest.mf
