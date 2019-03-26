@@ -1,9 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package nutricao;
+
+import java.util.ArrayList;
 
 /**
  *
@@ -16,13 +14,11 @@ public class Refeicao {
         Noite
     }
     
-    
-    
-    private Alimento[] alimentos;
+    private ArrayList<Alimento> alimentos;
     
     private Periodo periodo;
     
-    public Refeicao(Alimento[] alimentos, Periodo periodo){
+    public Refeicao(ArrayList<Alimento> alimentos, Periodo periodo){
         this.alimentos = alimentos;
         this.periodo = periodo;
     }
