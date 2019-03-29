@@ -13,4 +13,6 @@ test
 
 build.xml
 manifest.mf
-CC3642-Aula7.docx
+
+# docs
+*.docx
