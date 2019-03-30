@@ -1,6 +1,9 @@
 
 package nutricao;
 
+import java.util.ArrayList;
+import java.io.BufferedReader;
+import java.io.FileReader;
 /**
  *
  * @author unifdaoliveira
@@ -18,9 +21,15 @@ public class Alimento {
     private double carboidratos;
     private double proteinas;
     private double sodio;
-    private double peso;
+    private double porcao;
+    private ArrayList<Alimento> alimentos;
 //    private Object[] gorduras;
 //...
+    
+    private static ArrayList<Alimento> alimentos(){
+        
+        
+    }
     
     public Alimento(GrupoAlimentar grupo){
         this.grupo = grupo;
