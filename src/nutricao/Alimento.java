@@ -22,14 +22,13 @@ public class Alimento {
     private double proteinas;
     private double sodio;
     private double porcao;
-    private ArrayList<Alimento> alimentos;
+//    private ArrayList<Alimento> alimentos;
 //    private Object[] gorduras;
 //...
     
-    private static ArrayList<Alimento> alimentos(){
-        
-        
-    }
+//    private static ArrayList<Alimento> alimentos(){
+//        ret
+//    }
     
     public Alimento(GrupoAlimentar grupo){
         this.grupo = grupo;

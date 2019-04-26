@@ -15,11 +15,7 @@ public class Dieta {
     private Refeicao[] cardapio;
     
     public Dieta(Usuario usuario) {
-//        cardapio[0] = new Refeicao();
-        
-        
-        
-        
+//        cardapio[0] = new Refeicao(); 
     }
     
     

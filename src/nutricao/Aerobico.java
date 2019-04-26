@@ -8,8 +8,7 @@ public class Aerobico extends Exercicio {
         Fraca
     }
         
-    private int gramasGordura;
-    
+//    private int gramasGordura;
     private int duracao;
     
     private double distancia;
